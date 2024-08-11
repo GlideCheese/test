@@ -1,0 +1,23 @@
+[
+    {
+        "title": "My First Blog Post",
+        "date": "2024-06-22",
+        "content": "This is the content of my first blog post."
+    },
+    {
+        "title": "Understanding Web Development",
+        "date": "2024-07-05",
+        "content": "As requested in part 3, I will explain in this blog how to implement the light/dark mode switcher (Part One) and the dynamic blog section (Part Two) via JavaScript and JSON file."
+    },
+    {
+        "title": "Implementing a Light/Dark Mode Switcher",
+        "date": "2024-07-10",
+        "content": "In this post, I'll show you how to implement a light and dark mode switcher using JavaScript. The switcher allows users to switch between light and dark themes on my portfolio website. I'll do this by adding a button that switches the theme and storing the user's preference in localStorage so that the selected theme persists between sessions."
+    },
+    {
+        "title": "Creating a Dynamic Blog Section",
+        "date": "2024-07-11",
+        "content": "This post details the process of creating a dynamic blog section for my portfolio. To achieve this, I needed to use JavaScript to fetch blog posts from a posts.json file and dynamically display them on the blog page by creating and using script.js. The process involved creating an HTML structure for each post individually and populating it with data from the JSON file."
+    }
+]
+

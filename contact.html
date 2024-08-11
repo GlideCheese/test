@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--header part as usual-->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About Me</a></li>
+                <li><a href="projects.html" target="_blank">Projects</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Dark Mode</button>
+    </header>
+
+    <!--about how to contact, include name,email,subject and messages-->
+    
+    <main id="contact">
+        <section>
+            <h1>Contact Me</h1>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <div class="message-wrapper">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit">Send</button>
+            </form>
+            
+            <h2>Follow Me</h2>
+            <div class="social-media">
+                <a href="https://twitter.com/x?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @x</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                    <img src="LI-Logo-removebg-preview.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/yourprofile" target="_blank">
+                    <img src="GitHub_Logo-removebg-preview.jpg" alt="GitHub">
+                </a>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shupeng</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
